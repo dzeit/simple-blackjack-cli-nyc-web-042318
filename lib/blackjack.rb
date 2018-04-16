@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(card_total)
-  puts "Your cards add up to #{card_total}" 
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
@@ -18,20 +18,20 @@ def get_user_input
   gets.chomp
 end
 
-def end_game
-  puts "Sorry, you hit 27. Thanks for playing!"
+def end_game(number)
+  puts "Sorry, you hit #{number}. Thanks for playing!"
 end
 
 def initial_round
-  
+
 end
 
 def hit?
-  
+
 end
 
 def invalid_command
-  
+
 end
 
 #####################################################
