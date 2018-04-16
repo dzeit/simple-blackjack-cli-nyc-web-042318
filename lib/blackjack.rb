@@ -30,10 +30,19 @@ def initial_round
   round_one
 end
 
-def hit?
-  prompt_user 
-  player_call = get_user_input
-  if 
+def hit?(card_total)
+  prompt_user
+  input = get_user_input
+  until input == 'h' || input == 's'
+    invalid_command
+    prompt_user
+    input = get_user_input
+  end
+  if input == 'h'
+    card_total += deal_card
+  elsif input == 's'
+    card_total
+  end
 end
 
 def invalid_command
