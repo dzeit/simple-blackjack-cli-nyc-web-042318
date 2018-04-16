@@ -23,11 +23,11 @@ def end_game(card_total)
 end
 
 def initial_round
-  2.times 1 + rand(1..10)
-  puts display_card_total
+  display_card_total
 end
 
 def hit?
+
 
 end
 
