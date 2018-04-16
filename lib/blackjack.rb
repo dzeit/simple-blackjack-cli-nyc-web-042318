@@ -1,17 +1,17 @@
-def welcome
-  # code #welcome here
+def welcome(greeting)
+  puts "Welcome to the Blackjack Table"# code #welcome here
 end
 
 def deal_card
   # code #deal_card here
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(card_total)
+  puts "Your cards add up to #{card_total}" # code #display_card_total here
 end
 
-def prompt_user
-  # code #prompt_user here
+def prompt_user(prompt)
+  puts "Type 'h' to hit or 's' to stay"# code #prompt_user here
 end
 
 def get_user_input
