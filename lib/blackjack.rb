@@ -55,12 +55,7 @@ end
 
 def runner
   welcome
-  deal_card
-  display_card_total
-  prompt_user
-  input = get_user_input
-  end_game
   initial_round
-  hit?
-  invalid_command
+  hit? + display_card_total <= 21
+  end_game
 end
