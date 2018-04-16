@@ -31,12 +31,13 @@ def initial_round
 end
 
 def hit?
-
-
+  prompt_user 
+  player_call = get_user_input
+  if 
 end
 
 def invalid_command
-
+  puts "Please enter a valid command"
 end
 
 #####################################################
