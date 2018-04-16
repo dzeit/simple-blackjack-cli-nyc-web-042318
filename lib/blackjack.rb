@@ -23,7 +23,7 @@ def end_game(card_total)
 end
 
 def initial_round
-  deal_card >= 2
+  2.times card_total
   puts display_card_total
 end
 
